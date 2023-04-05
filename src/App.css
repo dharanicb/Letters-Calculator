@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card-container {
+  background-image: linear-gradient(#1d976c, #93f9b9);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 34px;
+}
+.input-name {
+  color: #e4e7eb;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.search-input {
+  outline: none;
+  color: #e4e7eb;
+  background-color: #219a6f;
+  height: 38px;
+  width: 400px;
+  border-color: #e4e7eb;
+  border-width: 2px;
+  border-radius: 8px;
+}
+.char-length {
+  color: #219a6f;
+  font-family: 'Roboto';
+  font-size: 25px;
+  background-color: #ffffff;
+  height: 40px;
+  width: 250px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px;
+}
